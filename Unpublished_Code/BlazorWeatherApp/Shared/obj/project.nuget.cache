@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nmwaUklaOSE=",
+  "success": true,
+  "projectFilePath": "C:\\Data\\code\\BlazorWeatherApp\\BlazorWeatherApp\\BlazorWeatherApp\\Shared\\BlazorWeatherApp.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shriv\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\shriv\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\shriv\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
