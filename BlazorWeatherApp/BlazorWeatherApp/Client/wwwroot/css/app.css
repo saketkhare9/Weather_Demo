@@ -1,0 +1,177 @@
+﻿@import url("[https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css)");
+
+/* General body styling */
+body {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark grey text */
+}
+
+/* Page title styling */
+h1 {
+    color: #007bff; /* Primary blue for main titles */
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6c757d;
+}
+
+/* Legend styling */
+.legend {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    border: 1px solid #dee2e6;
+    background-color: #e9ecef;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+    .legend h4 {
+        color: #007bff;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .legend .badge {
+        font-size: 0.95rem;
+        padding: 0.6em 1em;
+        border-radius: 50rem; /* Pill shape */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 150px; /* Ensure badges have a minimum width */
+    }
+
+        .legend .badge i {
+            margin-right: 0.5rem;
+        }
+
+/* Container for weather data to provide some padding */
+.weather-data-container {
+    padding: 0 1rem;
+}
+
+/* Styling for each location card */
+.location-card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+    .location-card h2 {
+        color: #6c757d; /* Secondary grey for location titles */
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+/* Table styling */
+.table {
+    margin-bottom: 0; /* Remove default table margin */
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 0.5rem;
+    overflow: hidden; /* Ensures rounded corners are applied */
+}
+
+    .table thead th {
+        background-color: #343a40; /* Dark header */
+        color: white;
+        font-weight: 600;
+        padding: 1rem 0.75rem;
+        vertical-align: middle;
+    }
+
+    .table tbody td {
+        padding: 0.8rem 0.75rem;
+        vertical-align: middle;
+    }
+
+/* Highlighting for dangerous conditions */
+.table-danger {
+    background-color: #dc3545 !important; /* Bootstrap danger color */
+    color: white; /* Ensure text is readable */
+}
+
+    .table-danger td {
+        border-color: rgba(255, 255, 255, 0.2); /* Lighter border for contrast */
+    }
+
+/* Highlighting for harsh conditions */
+.table-warning {
+    background-color: #ffc107 !important; /* Bootstrap warning color */
+    color: #343a40; /* Dark text for readability on yellow */
+}
+
+    .table-warning td {
+        border-color: rgba(0, 0, 0, 0.1); /* Standard border color */
+    }
+
+/* Bold text for highlighted rows */
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+/* Badges within table cells */
+.table .badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.7em;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+}
+
+/* Responsive table behavior */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure rounded corners on table */
+.table-bordered th:first-child,
+.table-bordered td:first-child {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.table-bordered th:last-child,
+.table-bordered td:last-child {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .legend .badge {
+        margin-right: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 0.85rem;
+        padding: 0.5em 0.8em;
+    }
+
+    .legend .d-flex {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .location-card {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

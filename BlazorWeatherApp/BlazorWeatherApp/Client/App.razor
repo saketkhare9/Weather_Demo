@@ -1,0 +1,24 @@
+﻿@using BlazorWeatherApp;
+
+<!--
+    The Router component enables navigation and routing in the Blazor application.
+    It matches the current URL to a page component.
+-->
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <!--
+            When a matching route is found, RouteView renders the corresponding page component.
+            The DefaultLayout parameter specifies the layout (MainLayout) to use for all pages.
+        -->
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <!--
+            If no matching route is found, LayoutView displays a "not found" message
+            using the MainLayout layout.
+        -->
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>

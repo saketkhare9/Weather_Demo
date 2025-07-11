@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html> <!-- Document type declaration -->
+<html lang="en"> <!-- Root HTML element with language set to English -->
+
+<head>
+    <meta charset="utf-8" /> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> <!-- Responsive viewport settings -->
+    <title>BlazorWeatherApp</title> <!-- Page title -->
+    <base href="/" /> <!-- Base URL for relative links -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" /> <!-- Bootstrap CSS -->
+    <link href="css/app.css" rel="stylesheet" /> <!-- Custom app CSS -->
+    <link href="BlazorWeatherApp.Client.styles.css" rel="stylesheet" /> <!-- Blazor-generated styles -->
+    <link href="manifest.json" rel="manifest" /> <!-- PWA manifest -->
+   
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+    <script>
+        /* window.location.href = "/Weather";*/
+    </script>
+    <!-- Due to Macbook & Visual Studio configuration issue process stuck here on my machine. -->
+    <div id="blazor-error-ui">
+        Due to some config issue, process stuck here on Index.html page.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>
+
