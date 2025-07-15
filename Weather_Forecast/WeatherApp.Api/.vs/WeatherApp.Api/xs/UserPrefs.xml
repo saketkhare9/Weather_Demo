@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{45367405-87E1-4EE4-879C-1D4353F84ED4}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Program.cs">
+    <Files>
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData.razor" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Program.cs" Line="12" Column="1" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/Index.razor" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.cs" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.razor" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Properties/launchSettings.json" />
+      <File FileName="../Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/appsettings.json" />
+      <File FileName="../../../../Volumes/One Touch/OGILaptopBackup/Data/MYWinVMBCK/bankrec_src/BankRec3-5/BankRecUI/Startup.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApp" expanded="True">
+            <Node name="WeatherApp.Web" expanded="True" selected="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="WeatherApp.Api" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.cs" line="21" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.cs" line="23" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData.razor" line="107" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData.razor" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
