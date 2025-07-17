@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "61c0LS79CjwcQolT+xOT6zsbnfg2q8ssnqwtAqD9R+HkkhB69uYwOiw46OdfrXC4tN8ZKqLuNs26ND1zN0yj9A==",
+  "success": true,
+  "projectFilePath": "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Api/WeatherApp.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/saketkhare/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/saketkhare/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

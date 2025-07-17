@@ -1,0 +1,67 @@
+@page "/fetchdata2"
+@inject HttpClient Http
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <MudText Typo="Typo.h4" class="py-3">Weather Forecasts</MudText>
+
+
+    <span class="mud-typography mud-typography-body1">Fahrenheit</span>
+    <MudSwitch @bind-Checked="@_isMetric" ThumbIcon="@Icons.Filled.DeviceThermostat"
+    Color="Color.Success" UnCheckedColor="Color.Error"
+    ThumbIconColor="Color.Dark">Celsius
+    </MudSwitch>
+
+    <MudPaper Class="d-flex flex-wrap gap-4" MaxWidth="928px" Elevation="0">
+        @foreach (var forecast in forecasts)
+        {
+            <MudCard Class="mud-theme-primary" MinWidth="200px">
+                <MudCardContent>
+                    <MudStack Justify="Justify.Center" Spacing="0">
+                        <MudText Typo="Typo.h6">@forecast.Date.ToString("dd MMM yyyy")
+                        </MudText>
+                        <MudText Typo="Typo.caption">@forecast.Date.ToString("dddd")
+                        </MudText>
+                        <MudDivider />
+                    </MudStack>
+                    <MudText Typo="Typo.body2">@forecast.Summary</MudText>
+                    @if (_isMetric)
+                    {
+                        <MudText Typo="Typo.body2">@forecast.TemperatureC</MudText>
+                    }
+                    else
+                    {
+                        <MudText Typo="Typo.body2">@forecast.TemperatureF</MudText>
+                    }
+                </MudCardContent>
+            </MudCard>
+        }
+        </MudPaper>
+}
+
+
+
+@code {
+    private WeatherForecast[]? forecasts;
+    public bool AlarmOn { get; set; }
+    bool _isMetric = false;
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("/WeatherForecast");
+    }
+
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}

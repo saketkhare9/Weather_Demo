@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/WeatherApp.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/WeatherApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/WeatherApp.Web.csproj",
+        "projectName": "WeatherApp.Web",
+        "projectPath": "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/WeatherApp.Web.csproj",
+        "packagesPath": "/Users/saketkhare/.nuget/packages/",
+        "outputPath": "/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/saketkhare/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

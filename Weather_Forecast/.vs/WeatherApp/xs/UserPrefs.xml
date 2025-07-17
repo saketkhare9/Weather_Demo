@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{A807D9D8-9FF9-4DC8-9ACA-7DB45CA42A37}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.cs" relfile="WeatherApp.Web/Pages/FetchData1.cs" line="21" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData1.cs" relfile="WeatherApp.Web/Pages/FetchData1.cs" line="23" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData.razor" relfile="WeatherApp.Web/Pages/FetchData.razor" line="107" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Pages/FetchData.razor" relfile="WeatherApp.Web/Pages/FetchData.razor" line="16" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Web/Program.cs" relfile="WeatherApp.Web/Program.cs" line="14" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Api/Controllers/WeatherForecastController.cs" relfile="WeatherApp.Api/Controllers/WeatherForecastController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/saketkhare/Downloads/Default-Weather-Forecast-BlazorWasm-WebApi-MudBlazor-main/WeatherApp.Api/Controllers/WeatherForecastController.cs" relfile="WeatherApp.Api/Controllers/WeatherForecastController.cs" line="27" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp.Api/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="WeatherApp.Web/Pages/FetchData.razor" Line="1" Column="1" />
+      <File FileName="WeatherApp.Web/Program.cs" Line="27" Column="1" />
+      <File FileName="WeatherApp.Web/Pages/Index.razor" />
+      <File FileName="WeatherApp.Web/Pages/FetchData1.cs" Line="9" Column="1" />
+      <File FileName="WeatherApp.Web/Pages/FetchData1.razor" />
+      <File FileName="WeatherApp.Web/Properties/launchSettings.json" />
+      <File FileName="WeatherApp.Web/appsettings.json" />
+      <File FileName="../../../../Volumes/One Touch/OGILaptopBackup/Data/MYWinVMBCK/bankrec_src/BankRec3-5/BankRecUI/Startup.cs" />
+      <File FileName="WeatherApp.Api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApp" expanded="True" selected="True">
+            <Node name="WeatherApp.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="WeatherApp.Web" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="RunAll" Name="RunAll">
+      <Items>
+        <StartupItem ItemId="{821458AA-2B62-4910-AC7F-6A639F3409F4}" ItemName="WeatherApp.Api" ConfigurationId="http" />
+        <StartupItem ItemId="{A807D9D8-9FF9-4DC8-9ACA-7DB45CA42A37}" ItemName="WeatherApp.Web" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
